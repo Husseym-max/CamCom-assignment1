@@ -1,0 +1,19 @@
+/* Clues.css */
+.clues {
+  display: flex;
+  justify-content: space-between;
+}
+
+.across, .down {
+  width: 45%;
+}
+
+.across p, .down p {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.selected {
+  background-color: #35679c;
+  font-weight: bold;
+}
